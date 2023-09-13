@@ -153,3 +153,12 @@ footer{
 .d-flex.legal>li{
     padding: 5px;
 }
+.title-legal-social.left{
+    width: 80%;
+}
+.title-legal-social.right{
+    width: 20%;
+}
+.ul-icon.fa-ul{
+    margin: 0;
+}
