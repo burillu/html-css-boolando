@@ -98,6 +98,18 @@ header{
     color: var(--color-contrast-color);
     text-decoration: line-through;
 }
+.flag{
+    padding: 2px 
+    5px;
+    margin: 2px;
+}
+.flag-discont{
+    background-color: var(--color-flag-discont);
+    
+}
+.flag-eco{
+    background-color: var(--color-flag-eco);
+}
 
 
 /* footer */
