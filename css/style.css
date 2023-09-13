@@ -57,15 +57,19 @@ a{
 /* header */
 header{
     background-color: var(--color-primary-color);
-    height: 60px;
+    
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 55 ;
+    font-weight: bold;
+}
+.header-content{
+    height: 60px;
 }
 .logo-content{
-    width: 50%;
-    margin: 0 auto;
+    width: 30%;
+    margin-left: 50%;
     
 }
 .img-fluid.logo{
