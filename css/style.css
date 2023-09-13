@@ -70,6 +70,12 @@ header{
 .card{
     width: calc(100% / 3);
 }
+.img-container{
+    width: 100%;
+    padding: 10px;
+}
+
+
 /* footer */
 footer{
     background-color: var(--color-contrast-color);
