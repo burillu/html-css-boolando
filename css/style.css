@@ -108,7 +108,37 @@ main{
 .card:nth-child(1):hover #img1{
     display:none;
 }
-.card:nth-child(1):hover #img2{
+.card:nth-child(1):hover #img1b{
+    display:block;
+}
+.card:nth-child(2):hover #img2{
+    display:none;
+}
+.card:nth-child(2):hover #img2b{
+    display:block;
+}
+.card:nth-child(3):hover #img3{
+    display:none;
+}
+.card:nth-child(3):hover #img3b{
+    display:block;
+}
+.card:nth-child(4):hover #img4{
+    display:none;
+}
+.card:nth-child(4):hover #img4b{
+    display:block;
+}
+.card:nth-child(5):hover #img5{
+    display:none;
+}
+.card:nth-child(5):hover #img5b{
+    display:block;
+}
+.card:nth-child(6):hover #img6{
+    display:none;
+}
+.card:nth-child(6):hover #img6b{
     display:block;
 }
 .description{
