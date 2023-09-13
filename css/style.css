@@ -23,10 +23,10 @@ a{
 }
 
 /* utility */
-.debug{
+/* .debug{
     border: 1px solid black;
     min-height: 30px;
-}
+} */
 .text-secondary{
     color: var(--color-secondary-color);
 }
@@ -154,6 +154,9 @@ main{
     position: absolute;
     top: 30px;
     right:10px;
+}
+.heart-container:hover{
+    color:var(--color-flag-discont);
 }
 
 
