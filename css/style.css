@@ -128,7 +128,7 @@ header{
     color: var(--color-contrast-color);
     background-color: var(--color-secondary-color);
     position: absolute;
-    top: 10px;
+    top: 30px;
     right:10px;
 }
 
