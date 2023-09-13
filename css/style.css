@@ -57,6 +57,10 @@ a{
 /* header */
 header{
     background-color: var(--color-primary-color);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 55 ;
 }
 .logo-content{
     width: 50%;
@@ -71,6 +75,10 @@ header{
 }
 
 /* main */
+main{
+    padding: 70px 0;
+
+}
 .card{
     width: calc(100% / 3);
     position: relative;
