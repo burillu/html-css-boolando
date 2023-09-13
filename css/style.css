@@ -102,13 +102,15 @@ main{
 .img-fluid.main{
     display: block;
 }
-.img-fluid.main.hidden-second{
+.img-fluid.hidden-second{
     display: none;
 }
-/* .card:nth-child(1):hover .card.card.debug:nth-child(1){
+.card:nth-child(1):hover #img1{
     display:none;
-
-} */
+}
+.card:nth-child(1):hover #img2{
+    display:block;
+}
 .description{
     padding: 0 10px;
 }
