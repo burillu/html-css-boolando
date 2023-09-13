@@ -73,6 +73,7 @@ header{
 .card{
     width: calc(100% / 3);
     position: relative;
+    padding: 15px 0;
 }
 .img-container{
     width: 100%;
