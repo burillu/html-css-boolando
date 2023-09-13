@@ -105,7 +105,7 @@ header{
 .flag-container{
     position: absolute;
     left: 10px;
-    bottom: 150px;
+    bottom: 120px;
 }
 .flag{
     padding: 2px 
@@ -120,11 +120,15 @@ header{
     background-color: var(--color-flag-eco);
 }
 .heart-container{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     font-size: 1.5em;
+    line-height: 1.5em;
     color: var(--color-contrast-color);
     background-color: var(--color-secondary-color);
+    position: absolute;
+    top: 10px;
+    right:10px;
 }
 
 
