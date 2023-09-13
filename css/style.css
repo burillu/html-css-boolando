@@ -1,3 +1,48 @@
-body{
-    background-color: aqua;
+
+/* general */
+
+:root {
+	--color-primary-color: #ff6900;
+	--color-secondary-color: #ffffff;
+	--color-contrast-color: #1a1a1a;
+	--color-flag-discont: #ff0000;
+	--color-flag-eco: #008000;
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+
+/* utility */
+.debug{
+    border: 1px solid black;
+    min-height: 30px;
+}
+.text-secondary{
+    color: var(--color-secondary-color);
+}
+.content{
+    max-width: 1200px;
+    margin:0 auto;
+}
+/* Flex */
+
+.d-flex{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* header */
+header{
+    background-color: var(--color-primary-color);
+}
+
+/* footer */
+footer{
+    background-color: var(--color-contrast-color);
 }
