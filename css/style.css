@@ -60,9 +60,10 @@ a{
 /* header */
 header{
     background-color: var(--color-primary-color);
-    
+    box-shadow: 0 2px 4px #666;
     position: fixed;
     top: 0;
+    left:0;
     width: 100%;
     z-index: 55 ;
     font-weight: bold;
